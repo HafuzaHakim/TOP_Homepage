@@ -1,26 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Homepage</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="intro-img">
-        <img src="" alt="">
-        <h1>Kucen</h1>
+      <div class="wrapper">
+        <div class="intro-img">
+          <picture>
+            <source
+              media="(max-width:500px)"
+              srcset="
+                assets/Mobile-Images/hero-m-500w.avif   500w,
+                assets/Mobile-Images/hero-m-1000w.avif 1000w,
+                assets/Mobile-Images/hero-m-1500w.avif 1500w
+              "
+              sizes="90vw"
+            />
+            <source
+              srcset="
+                assets/Desktop-Images/hero-1000w.avif 1000w,
+                assets/Desktop-Images/hero-1800w.avif 1800w,
+                assets/Desktop-Images/hero-2500w.avif 2500w
+              "
+              sizes="(min-width:501px) 50vw,(min-width:1001px) 30vw"
+            />
+            <img src="assets/Desktop-Images/hero-1000w.avif" alt="Autor" />
+          </picture>
+          <h1>Kucen</h1>
+        </div>
+        <div class="intro-info">
+          <h2>About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            amet, minus ratione illum optio rem aperiam adipisci? Magnam
+            possimus obcaecati pariatur iusto cum. Quasi iste nisi quidem
+            eveniet obcaecati pariatur nobis, facere magnam repudiandae incidunt
+            omnis, harum doloremque ducimus aut explicabo praesentium
+            laudantium. Repudiandae in, esse exercitationem dolore fuga autem!
+          </p>
+          <div class="icon-container">
+            <img src="assets/Icons/github.svg" alt="Github" />
+            <img src="assets/Icons/linkedIn.svg" alt="LinkedIn" />
+            <img src="assets/Icons/twitter.svg" alt="Twitter" />
+          </div>
+        </div>
       </div>
-     <div class="intro-text">
-        <h2>About Me</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur optio beatae dolores repudiandae praesentium? Quisquam placeat obcaecati, nesciunt, id deleniti dolore est asperiores totam sequi saepe velit dolorum sapiente atque blanditiis amet! Aliquam, sit iste, sapiente eligendi hic numquam harum quas nemo, fuga quasi maxime? Iure facere sit voluptatem eum.</p>
-     </div>
-     <div class="intro-icons">
-      
-     </div>
-
     </header>
-    <main></main>
-    <footer></footer>
   </body>
 </html>
