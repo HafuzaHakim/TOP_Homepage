@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 :root {
+  --ff-body: 'Roboto', sans-serif;
+  --ff-heading: 'Playfair Display', sans-serif;
+
+  --fs-extra-large: ;
+  --fs-large: ;
+  --fs-medium: ;
+  --fs-small: ;
+
+  --clr-bg-main: ;
+  --clr-bg-accent: ;
+  --clr-text-heading-main: ;
+  --clr-text-body-main: ;
+  --clr-text-heading-accent: ;
+  --clr-text-body-accent: ;
+  --clr-icons: ;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////
